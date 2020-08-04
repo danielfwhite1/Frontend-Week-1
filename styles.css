@@ -2,6 +2,7 @@
 .topnav {
     background-color: none;
     overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -10,8 +11,8 @@
     color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: underline;
     font-size: 17px;
+    text-decoration: none;
 }
 
 /* Change the color of the links on hover */
@@ -25,7 +26,7 @@
     background-color: none;
     color: white;
     text-shadow: 1px 1px black;
-    /* text-decoration: underline; */
+    text-decoration: underline;
 }
 
 body {
@@ -38,4 +39,15 @@ body {
 
 .list {
     color: white;
+    padding: 12px 48px;
+}
+
+.header {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 24px;
+}
+
+.container {
+    color: #F3EFEF;
 }
