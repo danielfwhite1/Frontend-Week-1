@@ -42,12 +42,13 @@ body {
     padding: 12px 48px;
 }
 
-.header {
+.header, h2, h3, h4 {
     color: white;
     text-shadow: 1px 1px black;
     font-size: 24px;
 }
 
-.container {
+.container, #languages, #bio {
     color: #F3EFEF;
+    text-shadow: 1px 1px black;
 }
